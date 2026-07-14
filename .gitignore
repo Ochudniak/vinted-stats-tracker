@@ -1,7 +1,18 @@
 .env
+.env.*
+
 .venv/
+venv/
 __pycache__/
 *.pyc
 
-data/*
-!data/.gitkeep
+credentials.json
+service-account.json
+google-credentials.json
+*.credentials.json
+
+data/
+*.txt
+*.csv
+*.xlsx
+*.db
